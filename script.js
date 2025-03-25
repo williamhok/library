@@ -13,3 +13,5 @@ function addBookToLibrary(author, title, pages, isRead) {
     myLibrary.push(newBook)
 }
 
+addBookToLibrary("This is author", "This is title", "This is pages", "Read already?")
+console.log(myLibrary)
